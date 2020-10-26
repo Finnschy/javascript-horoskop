@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     background: url(../img/jeremy-thomas-E0AHdsENmDg-unsplash.jpg) center / cover no-repeat;
-    height: 100vh;
+    height: 90vh;
+    font-family: 'Space Mono', monospace;
 }
 
 h1{
-    font-family: 'Syne Tactile', cursive;
     color: #fff;
     text-align: center;
-    margin: 10% 0 -8% 0;
+    margin: 5% 0 -8% 0;
     font-size: 3rem;
 } 
 
 h2 {
-    font-family: 'Syne Tactile', cursive;
-    padding-top: 10%;
+    padding: 10% 0;
+    margin: 0;
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5%;
+    line-height: 1.2rem;
+    padding: 10% 10% 15% 5%;
     border-radius: .6rem;
     -webkit-border-radius: .6rem;
     -moz-border-radius: .6rem;
@@ -31,9 +31,10 @@ p {
 }
 
 .myForm {
+    
     background: #fff;
     width: 15rem;
-    height: 5rem;
+    height: 10rem;
     border-radius: .6rem;
     display: flex;
     justify-content: center;
@@ -42,7 +43,27 @@ p {
     margin: 10% auto;
 }
 
+.mySubmit {
+    font-family: 'Space Mono', monospace;
+    margin: 5% 0;
+    padding: 3% 0;
+    width: 50%;
+    color: #fff;
+    border: none;
+    border-radius: .6rem;
+    background: linear-gradient(to bottom, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+    -webkit-border-radius: .6rem;
+    -moz-border-radius: .6rem;
+    -ms-border-radius: .6rem;
+    -o-border-radius: .6rem;
+}
+
+.mySubmit:hover {
+    background: linear-gradient(to right, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+}
+
 #output {
+    
     width: 15rem;
     margin: -5% auto;
     text-align: center;
@@ -58,4 +79,5 @@ p {
 img {
     filter: drop-shadow(1px 10px 14px #160e69);
     -webkit-filter: drop-shadow(0px 5px 10px #00000088);
+    
 }
